@@ -7,9 +7,9 @@ import java.util.Arrays;
 
 public class Tag4 {
     public static void main(String[] args) {
-//        System.out.println("Part 1:");
-//        part1();
-//        System.out.println();
+        System.out.println("Part 1:");
+        part1();
+        System.out.println();
         System.out.println("Part 2:");
         part2();
     }
@@ -25,8 +25,8 @@ public class Tag4 {
                 System.out.println(line);
                 System.out.println(Arrays.toString(split2));
 
-                if (split2[0] >= split2[2] && split2[3] >= split2[1]) score ++;
-                else if (split2[2] >= split2[0] && split2[1] >= split2[3]) score ++;
+                if (split2[0] >= split2[2] && split2[3] >= split2[1]) score++;
+                else if (split2[2] >= split2[0] && split2[1] >= split2[3]) score++;
                 System.out.println(score);
                 System.out.println("--------------------");
             }
@@ -48,10 +48,10 @@ public class Tag4 {
                 System.out.println(line);
                 System.out.println(Arrays.toString(split2));
 
-                if (split2[0] >= split2[2] && split2[3] >= split2[1]) score ++;
-                else if (split2[2] >= split2[0] && split2[1] >= split2[2]) score ++;
-                else if (split2[1] == split2[2] || split2[0] == split2[3]) score ++;
-                else if (split2[0] >= split2[2] && split2[3] >= split2[0]) score ++;
+                if (split2[0] >= split2[2] && split2[3] >= split2[1]) score++;
+                else if (split2[2] >= split2[0] && split2[1] >= split2[2]) score++;
+                else if (split2[1] == split2[2] || split2[0] == split2[3]) score++;
+                else if (split2[0] >= split2[2] && split2[3] >= split2[0]) score++;
                 System.out.println(score);
                 System.out.println("--------------------");
             }
