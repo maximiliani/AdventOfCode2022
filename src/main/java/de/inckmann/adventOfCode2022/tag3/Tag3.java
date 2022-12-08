@@ -79,9 +79,8 @@ public class Tag3 {
     }
 
     static int getValueToLetter(char x) {
-        int ascii = (int) x;
-        if (ascii >= 65 && ascii <= 90) return ascii - 64 + 26;
-        else if (ascii >= 97 && ascii <= 122) return ascii - 96;
+        if ((int) x >= 65 && (int) x <= 90) return (int) x - 64 + 26;
+        else if ((int) x >= 97 && (int) x <= 122) return (int) x - 96;
         else return 0;
     }
 }

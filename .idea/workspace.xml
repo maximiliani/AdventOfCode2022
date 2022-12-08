@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d35a437-7e25-4264-9d8a-e566183e2149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag3/Tag3.java" afterDir="false" />
+    <list default="true" id="8d35a437-7e25-4264-9d8a-e566183e2149" name="Changes" comment="Tag3 finished">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputTag4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag4/Tag4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag5/Tag5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag3/Tag3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag3/Tag3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +62,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669884271329</updated>
-      <workItem from="1669884274162" duration="12815000" />
+      <workItem from="1669884274162" duration="17047000" />
     </task>
+    <task id="LOCAL-00001" summary="Tag3 finished">
+      <created>1670410207330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670410207330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +87,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tag3 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag3 finished" />
   </component>
 </project>
