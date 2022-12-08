@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d35a437-7e25-4264-9d8a-e566183e2149" name="Changes" comment="Tag4">
-      <change afterPath="$PROJECT_DIR$/inputTag5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/Tag6/Tag6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/Tag7/Tag7.java" afterDir="false" />
+    <list default="true" id="8d35a437-7e25-4264-9d8a-e566183e2149" name="Changes" comment="Tag5">
+      <change afterPath="$PROJECT_DIR$/inputTag6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag4/Tag4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag4/Tag4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/Tag6/Tag6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/Tag6/Tag6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag5/Tag5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/inckmann/adventOfCode2022/tag5/Tag5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669884271329</updated>
-      <workItem from="1669884274162" duration="19797000" />
+      <workItem from="1669884274162" duration="22281000" />
     </task>
     <task id="LOCAL-00001" summary="Tag3 finished">
       <created>1670410207330</created>
@@ -82,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670504244115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tag5">
+      <created>1670507535608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670507535608</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tag3 finished" />
     <MESSAGE value="Tag4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag4" />
+    <MESSAGE value="Tag5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag5" />
   </component>
 </project>

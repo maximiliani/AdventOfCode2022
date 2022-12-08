@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class Tag5 {
-    private static Stack<String>[] stacks = new Stack[9];
+    private static final Stack[] stacks = new Stack[9];
 
     public static void main(String[] args) {
         initStacks();
@@ -21,7 +21,6 @@ public class Tag5 {
 
     public static void part1() {
         File file = new File("inputTag5");
-        int score = 0;
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             while (br.ready()) {
                 String line = br.readLine();
@@ -45,7 +44,6 @@ public class Tag5 {
 
     public static void part2() {
         File file = new File("inputTag5");
-        int score = 0;
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             while (br.ready()) {
                 String line = br.readLine();
@@ -56,7 +54,7 @@ public class Tag5 {
                 int end = Integer.parseInt(split[5])-1;
                 System.out.println(stacks[start]);
                 System.out.println(stacks[end]);
-                Stack<String> temp = new Stack<>();
+                Stack<Object> temp = new Stack<>();
                 for (int i = 0; i < count ; i++) temp.push(stacks[start].pop());
                 for (int i = 0; i < count ; i++) stacks[end].push(temp.pop());
                 System.out.println(stacks[start]);
